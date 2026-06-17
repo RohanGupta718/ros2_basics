@@ -1,0 +1,5 @@
+---
+float32 leader_x
+float32 follower_x
+float32 gap
+bool is_healthy
