@@ -1,0 +1,12 @@
+# Goal — what you want done
+float32 target_distance
+float32 speed
+---
+# Result — what happened when the task finished
+bool success
+float32 final_distance
+string message
+---
+# Feedback — periodic progress updates while running
+float32 current_distance
+float32 percent_complete

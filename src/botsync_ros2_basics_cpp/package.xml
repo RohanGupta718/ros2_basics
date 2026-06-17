@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+<name>botsync_ros2_basics_cpp</name>
+<version>1.0.0</version>
+<description>Botsync Robotics - ROS2 C++ Basics Package</description>
+<maintainer email="your@email.com">Your Name</maintainer>
+<license>Apache-2.0</license>
+<buildtool_depend>ament_cmake</buildtool_depend>
+<depend>rclcpp</depend>
+<depend>std_msgs</depend>
+<depend>rcl_interfaces</depend>
+<depend>botsync_ros2_interfaces</depend>
+<depend>rclcpp_action</depend>
+<test_depend>ament_cmake_gtest</test_depend>
+<export>
+<build_type>ament_cmake</build_type>
+</export>
+</package>

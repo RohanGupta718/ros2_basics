@@ -1,0 +1,9 @@
+# Request fields
+float64 a
+float64 b
+string operation   # "add", "subtract", "multiply", "divide"
+---
+# Response fields
+float64 result
+bool success
+string message
